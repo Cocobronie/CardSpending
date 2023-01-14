@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.RechargeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/text_padding_block">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="校园卡账户"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_block"/>
+        <TextView
+            android:id="@+id/recharge_id_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/text_padding_block">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="账户余额"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_block"/>
+        <TextView
+            android:id="@+id/recharge_surplus_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/text_padding_block"
+        android:paddingTop="@dimen/text_padding_block"
+        android:paddingRight="@dimen/text_padding_block">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="充值金额"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_block"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="29dp"
+                android:layout_height="30dp"
+                android:src="@drawable/money" />
+
+            <EditText
+                android:id="@+id/recharge_money_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入金额" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recharge_money20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20元"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/recharge_money30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30元"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/recharge_money50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50元"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recharge_money100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100元"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/recharge_money200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200元"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/recharge_money300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300元"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+    <Button
+        android:id="@+id/recharge_confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        android:enabled="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

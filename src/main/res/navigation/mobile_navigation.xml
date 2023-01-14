@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_me">
+
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.example.cardspending.ui.MeFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_spend" />
+
+    <fragment
+        android:id="@+id/navigation_spend"
+        android:name="com.example.cardspending.ui.SpendFragment"
+        android:label="消费"
+        tools:layout="@layout/fragment_me" />
+
+    <fragment
+        android:id="@+id/navigation_recharge"
+        android:name="com.example.cardspending.ui.RechargeFragment"
+        android:label="充值"
+        tools:layout="@layout/fragment_recharge" />
+</navigation>
