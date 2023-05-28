@@ -105,7 +105,7 @@
 
 [花生壳管理 - 内网穿透 (oray.com)](https://console.hsk.oray.com/forward)
 
-![image](https://github.com/Cocobronie/CardSpending/assets/98938169/db5348b4-58d2-4d75-9d60-240d4ee3a22c)
+<img width="1014" alt="Untitled 17-1685252073223-23" src="https://github.com/Cocobronie/CardSpending/assets/98938169/107ff375-139b-4e5c-9646-f3ff59c31559">
 
 这里需要注意的是：
 
